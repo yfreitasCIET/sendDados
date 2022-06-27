@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo</title>
+
+    <link href="/css/stils.css" rel="stylesheet" type="text/css"></style>
+</head>
+<body>
+    
+    <h2>Oi, neste formulário poderá cadastrar os dados dos bancos: </h2>
+    <div class="forms">
+        <div class="novo">
+            <h1>Banco antigo</h1>
+            <form action="bdNovo" method="post">
+                <label for="drive">DRIVE</label>
+                <input type="text" value="drive" name="drive">
+                <label for="host">HOST</label>
+                <input type="text" value="host" name="host">
+                <label for="banco">Nome do banco de dados</label>
+                <input type="text" value="banco" name="banco">
+                <label for="usuario">USUARIO</label>
+                <input type="text" value="usuario" name="usuario">
+                <label for="senha">SENHA</label>
+                <input type="text" value="senha" name="senha">
+                <input type="submit">
+
+            </form>
+        </div>    
+        <div class="antigo"> 
+            <h1>Banco novo</h1>
+                <form action="bdNovo" method="post">
+                    <label for="drive">DRIVE</label>
+                    <input type="text" value="drive" name="drive">
+                    <label for="host">HOST</label>
+                    <input type="text" value="host" name="host">
+                    <label for="banco">Nome do banco de dados</label>
+                    <input type="text" value="banco" name="banco">
+                    <label for="usuario">USUARIO</label>
+                    <input type="text" value="usuario" name="usuario">
+                    <label for="senha">SENHA</label>
+                    <input type="text" value="senha" name="senha">
+                    <input type="submit">
+
+            </form>
+        </div>
+        <div class="dados">
+
+            <iframe src="dados.html"></iframe>
+
+        </div>
+    </div>
+</body>
+</html>
